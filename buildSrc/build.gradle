@@ -1,0 +1,14 @@
+plugins {
+	id 'java-gradle-plugin'
+}
+
+
+gradlePlugin {
+    // Define the plugin
+    plugins {
+        javaLibrary {
+            id = 'my-plugin'
+            implementationClass = 'MyPlugin'
+        }
+    }
+}
